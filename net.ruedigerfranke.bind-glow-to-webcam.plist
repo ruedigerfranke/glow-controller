@@ -13,7 +13,7 @@
 	<key>RunAtLoad</key>
 	<true/>
   <key>StandardErrorPath</key>
-  <string>/Users/rfranke/log/bind-glow-to-webcam-error.log</string>
+  <string>/Users/rfranke/log/bind-glow-to-webcam.log</string>
   <key>StandardOutPath</key>
   <string>/Users/rfranke/log/bind-glow-to-webcam.log</string>
 </dict>
