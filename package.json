@@ -1,0 +1,28 @@
+{
+  "name": "@ruedigerfranke/glow-controller",
+  "version": "1.0.0",
+  "description": "A CLI to controll my logitech litra glow",
+  "main": "src/index.js",
+  "bin": {
+    "@ruedigerfranke/glow-controller": "bin/glow-controller",
+    "glow-controller": "bin/glow-controller",
+    "bind-glow-to-webcam": "bin/bind-glow-to-webcam"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "glow-controller",
+    "bind-glow-to-webcam"
+  ],
+  "author": "Rüdiger Franke",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "litra-glow": "^2.0.0"
+  }
+}
